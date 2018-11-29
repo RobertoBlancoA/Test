@@ -1,0 +1,11 @@
+   80  echo "# Test" >> README.md
+   81  ls
+   82  more README.md
+   83  cat README.md
+   84  git init
+   85  git add README.md
+   86  git commit -m "first commit"
+   87  git remote add origin https://github.com/RobertoBlancoA/Test.git
+   88  git push -u origin master
+   89  history
+
